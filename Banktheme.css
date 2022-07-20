@@ -1,0 +1,1056 @@
+
+.brand{
+     font-family:italic;
+	}
+    
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+        padding: 20px 0;
+}
+
+.header .brand {
+    display: inline-block;
+    color: lavender;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.header .brand p {
+    margin-top: -12px;
+    font-size: 14px;
+    text-align: right;
+}
+.menu {
+	width:1100px;
+	background-color:#006699;
+    border-radius: 20px 20px 0 0;
+    padding: 0;
+	border:1px solid white;  
+ margin-bottom: 1px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 12px;
+    min-width: 110px;
+    text-align: center;
+    text-decoration: none;
+    color: lightblue;
+    font-size: 14px;
+    border-right: 0.1px solid lightblue;
+}
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.headerFixed {
+  padding: 10px 16px;
+  background: #0F3B5F;
+  color: #f1f1f1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   
+   
+   
+/*Index LoginPage*/
+.setbody{
+       height:520px;
+    width:1100px;
+    margin-top:50px;
+    }
+
+
+.topbtn{
+    height:25px;
+    width:760px;
+    border-radius: 50px 50px 0px 0px; 
+    margin-top:18px;
+    margin-left:70px;
+   
+}
+
+.SetLogin2{
+  height:400px;
+  width:1100px;
+  border:1px solid red;
+  margin-top:00px;
+  margin-left:150px;
+  border-radius: 400px;
+}
+
+
+button.g{
+    height:21px;
+    width:150px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color:#0F3B5F;
+    border:1px solid lightgray;
+    margin-top:3px ;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+     margin-left:2px;
+    border-radius: 50px 0px 0px 0px;
+}
+button.g:hover {
+     background-color: lightsteelblue;
+     color:black;
+    opacity: 0.9;
+  }
+
+  button.h{
+    height:21px;
+    width:150px;     
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color:#0F3B5F;
+    border:1px solid lightgray;
+    margin-top:3px ;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    margin-left:153px;
+}
+button.h:hover {
+     background-color: lightsteelblue;
+     color:black;
+    opacity: 0.9;
+  }
+
+  button.i{
+    height:21px;
+    width:150px;
+    border:none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    cursor: pointer;
+    color: white;
+    background-color:#0F3B5F;
+    border:1px solid lightgray;
+    margin-top:-21px ;
+    margin-left:304px;
+}
+button.i:hover {
+     background-color: lightsteelblue;
+     color:black;
+    opacity: 0.9;
+  }
+
+  button.j{
+    height:21px;
+    width:150px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    background-color:#0F3B5F;
+    border:1px solid lightgray;
+    margin-top:1px ;
+    margin-left:304px;
+}
+button.j:hover {
+     background-color: lightsteelblue;
+     color:black;
+    opacity: 0.9;
+  }
+
+
+  button.k{
+    height:21px;
+    width:150px;
+    border:none;
+    cursor: pointer;
+    color: white;
+    background-color:#0F3B5F;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    border:1px solid lightgray;
+    margin-top:1px ;
+    margin-left:304px;
+    border-radius: 0px 50px 0px 0px;
+}
+button.k:hover {
+     background-color: lightsteelblue;
+     color:black;
+    opacity: 0.9;
+  }
+
+
+/*Spliting of Services*/
+.dropdown {
+    position: absolute;
+    display: inline-block;
+  }
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    margin-left:30px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .g:hover, .dropdown:hover .g {
+    background-color: cornflowerblue;
+  }
+  
+  
+
+
+  /*Spliting of FAQ*/
+  
+  .dropdown2-content2 {
+    display: none;
+    cursor: pointer;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    margin-left:180px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown2-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown2-content2 a:hover {background-color: #ddd}
+  
+  .dropdown2:hover .dropdown2-content2 {
+    display: block;
+  }
+  .h:hover, .dropdown2:hover .h {
+    background-color: cornflowerblue;
+  }
+  
+
+
+
+
+
+
+
+
+  .dropdown4{
+    margin-left:151px;
+    margin-top:-22px;
+}  
+  .dropdown4-content4 {
+    display: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    margin-left:330px;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown4-content4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown4-content4 a:hover {background-color: #ddd}
+  
+  .dropdown4:hover .dropdown4-content4 {
+    display: block;
+  }
+  .j:hover, .dropdown4:hover .j {
+    background-color:cornflowerblue;
+  }
+ 
+
+  
+  .dropdown5{
+    margin-left:302px;
+    margin-top:-22px;
+}  
+  .dropdown5-content5 {
+    display: none;
+    margin-left:330px;
+    position: absolute;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown5-content5 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown5-content5 a:hover {background-color: #ddd}
+  
+  .dropdown5:hover .dropdown5-content5 {
+    display: block;
+  }
+  .k:hover, .dropdown5:hover .k {
+    background-color: cornflowerblue;
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+For AdminLogin*/
+.setadminimg{
+    height:250px;
+    width:200px;
+    margin-top:40px;
+}
+
+
+input[type=text] {
+    width: 900px;
+    height:40px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('logimg9.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 2px 10px 2px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 600px;
+    border-color: #0F3B5F;
+    box-shadow: 0 0 8px 0 #0F3B5F;
+  }
+
+  input[type=password] {
+    width: 900px;
+    height:40px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('logimg9.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 2px 10px 2px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=password]:focus {
+    width: 600px;
+    border-color: #0F3B5F;
+    box-shadow: 0 0 8px 0 #0F3B5F;
+  }
+
+
+.AdminLogin{
+        height:396px;
+        width:547px;
+        box-shadow: 0 20px 50px rgba(0,0,0,.5);
+        margin-left:0px;
+        margin-top:1px;
+        border-radius: 0px 400px 400px 0px;
+        border:1px solid #0F3B5F;
+    }
+    button.d{
+        background-color: #0F3B5F;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        margin-top:20px;
+        margin-left:0px;
+        border-radius:20px;
+        cursor: pointer;
+        box-shadow: 0 20px 50px rgba(0,0,0,.5);
+        width: 100%;
+      }
+button.d:hover {
+    opacity: 0.8;
+  }
+  button.e{
+    background-color: #0F3B5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    margin-top:20px;
+    margin-left:-50px;
+    border-radius:20px;
+    cursor: pointer;
+    width: 300px;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  }
+  button.e:hover {
+    opacity: 0.8;
+  }
+  button.f{
+    background-color: #0F3B5F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    box-shadow: 0 20px 50px rgba(0,0,0,.5);
+    border: none;
+    margin-top:20px;
+    margin-left:-50px;
+    border-radius:20px;
+    cursor: pointer;
+    width: 200px;
+  }
+  button.f:hover {
+    opacity: 0.8;
+  }
+
+  .username2{
+    margin-left:-828px;
+}
+.password2{
+    margin-left:-828px;
+}
+
+.Rememberme2{
+  margin-top:10px;
+  margin-left:-62px;
+}
+
+
+
+  .modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width:100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  .modal2-content2 {
+/*background-color: #fefefe;
+    border: 1px solid #888;
+    */background:rgba(84, 84, 161, 0.603);
+    width:1150px;
+    height:520px;
+    margin-top:60px;
+    border-radius: 100px 100px 100px 100px;;
+    }
+/* Add Zoom Animation */
+.animate2 {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  
+  img.avatar2 {
+  border:1px solid black;
+  box-shadow:0 20px 50px rgba(0,0,0,.5);
+  margin-top:-110px;
+  border-radius: 50%;
+    margin-top:-110px;
+      border-radius: 50%;
+  }
+.h2{
+    margin-top:0px;
+}
+
+  .container3 {
+    /*border:2px solid red;*/
+    width:905px;
+ margin-top:0px;
+   }
+ .container4{
+   width:1148px;
+   height:100px;
+  background:rgba(177, 175, 187, 0.682);
+    border-radius: 0px 0px 100px 100px;
+   margin-top:53px;
+  
+ }
+
+
+*/
+
+
+
+
+
+
+
+/*For UserLogin*/
+.setUserimg{
+  height:250px;
+  width:150px;
+  margin-top:40px;
+}
+input[type=Personaltext] {
+  width: 900px;
+  height:40px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('logimg9.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=Personaltext]:focus {
+  width: 650px;
+  border-color: #0F3B5F;
+  box-shadow: 0 0 8px 0 #0F3B5F;
+}
+input[type=password] {
+  width: 900px;
+  height:40px;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('logimg9.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=password]:focus {
+  width: 650px;
+  border-color: #0F3B5F;
+  box-shadow: 0 0 8px 0 #0F3B5F;
+}
+
+.SetLogin{
+  height:400px;
+  width:1100px;
+  margin-top:1px;
+  border-radius: 400px;
+      border:1px solid #0F3B5F;
+}
+
+.UserLogin{
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+      height:396px;
+      width:548px;
+      margin-left:1px;
+      margin-top:-398px;
+      border-radius: 400px 0px 0px 400px;
+      border:1px solid #0F3B5F;
+  }
+  .h1{
+      margin-left:0px;
+      
+  }
+  button.a{
+      box-shadow: 0 20px 50px rgba(0,0,0,.5);
+          background-color: #0F3B5F;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      margin-top:20px;
+      margin-left:0px;
+      border-radius:20px;
+      cursor: pointer;
+      width: 100%;
+    }
+button.a:hover {
+      opacity: 0.8;
+}
+
+
+button.b{
+  background-color: #0F3B5F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-top:20px;
+  margin-left:-50px;
+  border-radius:20px;
+  cursor: pointer;
+  width: 300px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+button.b:hover {
+  opacity: 0.8;
+}
+
+
+button.c{
+  background-color: #0F3B5F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-top:20px;
+  margin-left:-50px;
+  border-radius:20px;
+  cursor: pointer;
+  width: 200px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+button.c:hover {
+  opacity: 0.8;
+}
+.psw{
+  margin-left:-40px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width:100%; 
+  height: 100%;
+    overflow: auto; 
+  background-color: rgb(0,0,0);   
+  background-color: rgba(0,0,0,0.6); 
+  padding-top: 60px;
+}
+.modal-content {
+  background:rgba(84, 84, 161, 0.603);
+  /* background-color: white;
+  border: 1px solid #888;
+  */width:1150px;
+  height:520px;
+  margin-top:60px;
+  border:0px solid #0F3B5F;
+  border-radius: 100px 100px 100px 100px;;
+  }
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Extra styles for the cancel button */
+/*.cancelbtn {
+  width: auto;
+  padding: 20px 25px;
+  background-color: #f44336;
+}*/
+.username{
+    margin-left:-920px;
+}
+.password{
+    margin-left:-920px;
+}
+
+.Rememberme{
+  margin-top:10px;
+  margin-left:-62px;
+}
+
+
+
+
+img.avatar {
+  border:1px solid black;
+  box-shadow:0 20px 50px rgba(0,0,0,.5);
+  margin-top:-110px;
+  border-radius: 50%;
+}
+
+
+.container {
+   /*border:2px solid red;*/
+   width:1000px;
+margin-top:10px;
+  }
+.container1{
+  width:1148px;
+  height:100px;
+  background:rgba(177, 175, 187, 0.682);
+  border-radius: 0px 0px 100px 100px;
+  margin-top:51px;
+  margin-left:0px; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ /*FOR SIGNUP Button Register.html*/
+ body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+ 
+
+
+ .setForm{
+   height:530px;
+  width:1100px;
+  border-radius: 10px;
+/*  background-color: #0F3B5F;
+  */background: rgba(100, 100, 100, 0.9);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+ }
+ 
+ img.pic {
+   margin-top:-70px;
+  margin-left:450px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+  border-radius: 50%;
+}
+.heading{
+  font-size: 30px;
+  margin-left:464px;
+  color:white;
+}
+ 
+ input[type=Rtext] {
+  width: 600px;
+  height:30px;
+ outline: none;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=Rtext]:focus {
+  width: 400px;
+  border-color: lavender;
+  box-shadow: 0 0 8px 0 #0F3B5F;
+}
+.name{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:205px;
+}
+.fname{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:119px;
+}
+
+.pancard{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:130px;
+}
+.aadhaar{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:120px; 
+}
+.email{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:167px;
+}
+.contact{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left: 130px;
+}
+.address{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-top:5px;
+  margin-left: 185px;
+}
+
+.gender{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender; 
+  margin-left:117px;
+}
+.male{
+  cursor: pointer;
+  margin-left:317px;
+  margin-top:-20px;
+ color: lavender;
+}
+.female{
+  cursor: pointer;
+  margin-left:317px;
+ color: lavender;
+}
+.othor{
+  cursor: pointer;
+  margin-left:317px;
+  margin-top:-1px;
+ color: lavender;
+}
+
+.dob{
+  height:40px;
+  width:50px;
+  font-size:27px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:lavender;
+  margin-left:415px;
+}
+.setdob{
+  margin-top:-72px;
+}
+input[type=date] {
+  width: 300px;
+  height:30px;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 2px 10px 2px 10px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+button.r{
+  background-color:lightslategray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-top:50px;
+  margin-left:370px;
+  border-radius:20px;
+  cursor: pointer;
+  width: 300px;
+  box-shadow: 0 20px 50px rgba(0,0,0,.5);
+}
+button.r:hover {
+  opacity: 0.8;
+  background-color: steelblue;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+/*                                                                <div class="genderlabel"><b>Select Gender:  </b></div>
+                                                                <div class="gender">
+                                                                <input type="radio" name="gender" value="male" checked />Male<br>
+                                                                <input type="radio" name="gender" value="female" checked />Female<br>
+                                                                <input type="radio" name="gender" value="other" checked />Other<br>
+                                                                </div>
+*/
+
+
+
+
+
+
+
+
+
+
+
